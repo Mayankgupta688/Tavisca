@@ -1,0 +1,13 @@
+<p style="padding: 10px; margin: 5px;">
+    <label style="padding-right: 10px">Filter Employee: </label>
+    <input type="text" />
+</p>
+
+<div *ngFor="let employee of employeeDetails" class="card" style="width: 18rem; padding: 10px; margin: 15px; display: inline-block">
+  <img [src]="employee.avatar" class="card-img-top" [alt]="employee.name">
+  <div class="card-body">
+    <h5 class="card-title">{{employee.name}}</h5>
+    <p class="card-text">{{employee.id}}: Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Delete</a>
+  </div>
+</div>
