@@ -3,7 +3,7 @@
 Enter Value: <input (keyup)="inputValueChanged($event)" 
                     type="text" [value]="inputValue" /><br/><br/>
 
-Enter Value 2 Way Data Binding: <input type="text" [(ngModel)]="inputValue" /><br/><br/>
+Enter Value 2 Way Data Binding: <input type="text" [(ngModel)]="inputValue" (keyup)="inputValueChanged($event)" /><br/><br/>
 
 <b>Input Value is {{inputValue}}</b><br/><br/>
 
