@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import EmployeeService from '../services/employee.service';
 
 @Component({
   selector: 'app-emp-details',
@@ -8,10 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EmpDetailsComponent {
   
-  constructor(private _httpClient: HttpClient) {
-    this._httpClient.get("https://5a530e1477e1d20012fa066a.mockapi.io/login").subscribe((response) => {
+  constructor(private _empService: EmployeeService) {
+    this._empService.getEmployeeDetailsObservable().subscribe((response: any) => {
       this.masterEmployeeDetails = response;
       this.filterEmployeeDetails = this.masterEmployeeDetails;
+      this._empService.employeeList = response;
+    }, (error: Error) => {
+      alert("API Failued because: " + error.message);
     })
   }
   
@@ -41,6 +45,7 @@ export class EmpDetailsComponent {
   }
   
   deleteEmployee(employeeId: number) {
+    
     this.masterEmployeeDetails = this.masterEmployeeDetails.filter((employee: any) => {
       return +employee.id != +employeeId;
     });
