@@ -8,8 +8,23 @@ import EmployeeService from '../services/employee.service';
   styleUrls: ['./emp-count.component.css']
 })
 export class EmpCountComponent {
-  empCount: number = 0
-  constructor(private _empService: EmployeeService) { }
+  empCount: number = 0;
+  otherCount: number = 100;
+  colorData: string = "grey";
+  constructor(private _empService: EmployeeService) {
+    
+    this._empService.employeeListUpdateEvent.subscribe(() => {
+      this.empCount = this._empService.employeeList.length;
+    });
+    
+    setInterval(() => {
+      this.otherCount = this.otherCount + 1
+    }, 5000)
+  }
+  
+  changeColor() {
+    this.colorData = "red";
+  }
 
   getEmployees() {
     debugger;

@@ -1,138 +1,6 @@
 {
   "employees": [
     {
-      "id": "26",
-      "createdAt": "2019-07-09T18:08:17.841Z",
-      "name": "Lyric Metz",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/tgerken/128.jpg"
-    },
-    {
-      "id": "28",
-      "createdAt": "2019-07-09T20:32:28.258Z",
-      "name": "Efren Windler PhD",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mbilderbach/128.jpg"
-    },
-    {
-      "id": "29",
-      "createdAt": "2019-07-10T03:43:08.857Z",
-      "name": "Kenya Reichel",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/blakesimkins/128.jpg"
-    },
-    {
-      "id": "30",
-      "createdAt": "2019-07-09T18:06:41.721Z",
-      "name": "Edmund Fisher",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/seyedhossein1/128.jpg"
-    },
-    {
-      "id": "31",
-      "createdAt": "2019-07-09T11:44:07.092Z",
-      "name": "Lenora Price",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/incubo82/128.jpg"
-    },
-    {
-      "id": "32",
-      "createdAt": "2019-07-09T20:56:58.884Z",
-      "name": "Clementina Sanford",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/thomasschrijer/128.jpg"
-    },
-    {
-      "id": "33",
-      "createdAt": "2019-07-10T07:56:08.182Z",
-      "name": "Willow Windler",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/eitarafa/128.jpg"
-    },
-    {
-      "id": "34",
-      "createdAt": "2019-07-09T22:57:09.161Z",
-      "name": "Johanna Waters",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/nyancecom/128.jpg"
-    },
-    {
-      "id": "35",
-      "createdAt": "2019-07-09T20:33:28.329Z",
-      "name": "Tara Wilderman",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/teddyzetterlund/128.jpg"
-    },
-    {
-      "id": "36",
-      "createdAt": "2019-07-10T06:09:57.184Z",
-      "name": "Mrs. Heidi Oberbrunner",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/haydn_woods/128.jpg"
-    },
-    {
-      "id": "37",
-      "createdAt": "2019-07-10T09:02:27.120Z",
-      "name": "Beryl Fadel",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/drewbyreese/128.jpg"
-    },
-    {
-      "id": "38",
-      "createdAt": "2019-07-09T18:57:44.201Z",
-      "name": "Johnnie Rodriguez",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mrxloka/128.jpg"
-    },
-    {
-      "id": "39",
-      "createdAt": "2019-07-10T10:25:40.427Z",
-      "name": "Regan Casper",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/victorstuber/128.jpg"
-    },
-    {
-      "id": "40",
-      "createdAt": "2019-07-09T20:29:38.348Z",
-      "name": "Cordie Abshire PhD",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mdsisto/128.jpg"
-    },
-    {
-      "id": "41",
-      "createdAt": "2019-07-10T08:08:29.386Z",
-      "name": "Brennon Dooley Sr.",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/danvierich/128.jpg"
-    },
-    {
-      "id": "42",
-      "createdAt": "2019-07-10T06:26:16.637Z",
-      "name": "Gus Hegmann",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/begreative/128.jpg"
-    },
-    {
-      "id": "43",
-      "createdAt": "2019-07-09T16:43:20.774Z",
-      "name": "Carson Klocko",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/imomenui/128.jpg"
-    },
-    {
-      "id": "44",
-      "createdAt": "2019-07-09T10:42:09.480Z",
-      "name": "Stephanie Lesch",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/kennyadr/128.jpg"
-    },
-    {
-      "id": "45",
-      "createdAt": "2019-07-09T10:39:15.536Z",
-      "name": "Jake Ortiz",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/embrcecreations/128.jpg"
-    },
-    {
-      "id": "46",
-      "createdAt": "2019-07-09T14:54:55.641Z",
-      "name": "Dino Lowe",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/michaelcomiskey/128.jpg"
-    },
-    {
-      "id": "47",
-      "createdAt": "2019-07-10T06:34:20.688Z",
-      "name": "Jeanette Hoeger",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/deviljho_/128.jpg"
-    },
-    {
-      "id": "48",
-      "createdAt": "2019-07-10T00:33:44.497Z",
-      "name": "Jean Jacobson",
-      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/kolsvein/128.jpg"
-    },
-    {
       "id": "49",
       "createdAt": "2019-07-09T16:11:39.589Z",
       "name": "Bradly Lemke",
@@ -414,7 +282,12 @@
       "avatar": "dsffsdf",
       "id": "100"
     },
-    { "createdAt": "asdasd", "name": "riz", "avatar": "he", "id": "101" },
+    {
+      "createdAt": "asdasd",
+      "name": "riz",
+      "avatar": "he",
+      "id": "101"
+    },
     {
       "createdAt": "asdasd",
       "name": "adsadasd",
@@ -427,8 +300,18 @@
       "avatar": "sad",
       "id": "103"
     },
-    { "createdAt": "342432", "name": "Meha", "avatar": "3424234", "id": "104" },
-    { "createdAt": "da", "name": "sadasdas", "avatar": "dasdas", "id": "105" },
+    {
+      "createdAt": "342432",
+      "name": "Meha",
+      "avatar": "3424234",
+      "id": "104"
+    },
+    {
+      "createdAt": "da",
+      "name": "sadasdas",
+      "avatar": "dasdas",
+      "id": "105"
+    },
     {
       "createdAt": "32423423",
       "name": "Sample Data",
@@ -441,8 +324,18 @@
       "avatar": "Sample",
       "id": "107"
     },
-    { "createdAt": "abcd", "name": "Amir", "avatar": "abcd", "id": "108" },
-    { "createdAt": "Sample", "name": "Kiran", "avatar": "Sample", "id": "109" },
+    {
+      "createdAt": "abcd",
+      "name": "Amir",
+      "avatar": "abcd",
+      "id": "108"
+    },
+    {
+      "createdAt": "Sample",
+      "name": "Kiran",
+      "avatar": "Sample",
+      "id": "109"
+    },
     {
       "createdAt": "here",
       "name": "Shoaib Nissar",
@@ -460,6 +353,18 @@
       "name": "Lola Sawayn",
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/501.jpg",
       "id": "112"
+    },
+    {
+      "name": "Mayank Gupta",
+      "id": "1",
+      "createdAt": "Yesterday",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoiAMlt7-spkqZodbYo8B9-PGy7b1EcsHQCw&usqp=CAU"
+    },
+    {
+      "name": "zxczczx",
+      "id": "123123",
+      "createdAt": "Yesterday",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoiAMlt7-spkqZodbYo8B9-PGy7b1EcsHQCw&usqp=CAU"
     }
   ]
 }

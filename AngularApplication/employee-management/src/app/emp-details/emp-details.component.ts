@@ -17,6 +17,12 @@ export class EmpDetailsComponent {
     }, (error: Error) => {
       alert("API Failued because: " + error.message);
     })
+    
+    this._empService.employeeListUpdateEvent.subscribe(() => {
+      debugger;
+      this.masterEmployeeDetails = this._empService.employeeList;
+      this.filterEmployeeDetails = this.masterEmployeeDetails;
+    })
   }
   
   filterText: string = "";
@@ -45,22 +51,30 @@ export class EmpDetailsComponent {
   }
   
   deleteEmployee(employeeId: number) {
-    
-    this.masterEmployeeDetails = this.masterEmployeeDetails.filter((employee: any) => {
-      return +employee.id != +employeeId;
+    this._empService.deleteEmployee(employeeId).subscribe(() => {
+      this.masterEmployeeDetails = this.masterEmployeeDetails.filter((employee: any) => {
+        return +employee.id != +employeeId;
+      });
+      
+      this.filterEmployeeDetails = this.masterEmployeeDetails;
+      this.filterText = "";
+      debugger;
+      this._empService.getEmployeeDetailsAndNotify();
+    }, () => {
+      alert("Failed to Delete Employee with id: " + employeeId)
     });
-    
-    this.filterEmployeeDetails = this.masterEmployeeDetails;
-    this.filterText = "";
   }
   
   addEmployee() {
-    if (this.newEmployee.name && this.newEmployee.id && this.newEmployee.avatar && this.newEmployee.createdAt) {
+    debugger;
+    this._empService.addEmployee(this.newEmployee.name, this.newEmployee.id).subscribe(() => {
+      debugger;
       this.masterEmployeeDetails.push(this.newEmployee);
       this.filterEmployeeDetails = this.masterEmployeeDetails;
       this.filterText = "";
       this.clearValue();
-    }
+      this._empService.getEmployeeDetailsAndNotify();
+    });
   }
   
   clearValue() {
